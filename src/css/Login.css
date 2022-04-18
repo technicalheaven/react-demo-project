@@ -1,0 +1,14 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #673AB7;
+}
+.btn-login{
+    background-color: #39972d;
+}
+.btn-login:hover{
+    background-color: #157a53;
+}
+
+

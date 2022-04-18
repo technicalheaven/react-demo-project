@@ -1,0 +1,100 @@
+.dashboardHeader .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px 0 10px;
+    border-bottom: 1px solid #e5dada;
+}
+
+.dashboardHeader .logo {
+    width: 55px;
+    height: 55px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.dashboardHeader nav{
+    display: flex;
+    padding-top: 5px;
+}
+
+.dashboardHeader .navigation {
+    padding: 10px;
+}
+
+.dashboardHeader .menu-items {
+    font-weight: 500;
+    color: #696565;
+    cursor: pointer;
+    margin: 0 10px 0 0;
+    font-size: 15px;
+}
+.dashboardHeader .menu-items:hover,.dashboardHeader .active.menu-items{
+   color: #ff9100;
+   border-bottom: 1px solid #ff9100;
+}
+.collabrators {
+    display: flex;
+    padding-right: 10px;
+    border-right: 1px solid #e1e1e1;
+}
+
+.collabrators img{
+    width: 100%;
+}
+
+.collabrators .user{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.dashboardHeader .title {
+    font-size: 18px;
+    font-weight: 600;
+}
+.dashboardHeader .others{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dashboardHeader .searchbox input{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.dashboardHeader .searchbox{
+    display: flex;
+    border: 1px solid #bbb4b4;
+    align-items: center;
+    border-radius: 20px;
+    padding: 3px 8px;
+    margin: 0 15px;
+}
+.dashboardHeader .actionBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.actionBar .actions {
+    display: flex;
+}
+
+.actionBar .actions .item{
+    padding: 10px;
+}
+
+.actionBar svg{
+    transform: translateY(2px);
+}
+
+.actionBar .info{
+    font-weight: 500;
+    color: #717171;
+}

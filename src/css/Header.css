@@ -1,0 +1,22 @@
+.mainHeader{
+    height: 80px;
+}
+.mainHeader .logo {
+    width: 80px;
+}
+.mainHeader{
+    display: grid;
+    grid-template-columns: 11fr 2fr;
+}
+
+.mainHeader nav{
+    display: flex;
+    align-items: center;
+}
+
+.mainHeader a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    font-weight: 500;
+}

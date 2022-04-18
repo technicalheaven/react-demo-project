@@ -1,0 +1,50 @@
+.task {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+    margin: 15px 0;
+}
+.task .task-title{
+    display: flex;
+    align-items: center;
+}
+
+.task-title span {
+    padding: 10px;
+    font-weight: 500;
+}
+.task .bars{
+    padding-top: 10px;
+}
+.task .bars span {
+    width: 80px;
+    height: 8px;
+    display: inline-block;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+.task .bars span:first-child{
+    background-color: rgb(206, 93, 93);
+}
+.task .bars span:last-child{
+    background-color: rgb(65, 44, 156);
+}
+.task .task-image img{
+    height: 100%;
+    object-fit: cover;
+}
+.task .task-image{
+    height: 200px;
+
+}
+
+.task-category span{
+    display: inline-block;
+    background-color: #999898;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 5px 15px;
+    margin: 10px;
+
+}

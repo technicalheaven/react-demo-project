@@ -1,0 +1,17 @@
+.alert{
+    padding: 8px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .alert .close{
+    cursor: pointer;
+  }
+
+  

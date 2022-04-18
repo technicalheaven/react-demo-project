@@ -1,0 +1,9 @@
+.register{
+    background-color:blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-register{
+    background-color: darkcyan;
+}
